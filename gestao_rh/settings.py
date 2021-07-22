@@ -28,6 +28,10 @@ ALLOWED_HOSTS = []
 
 MY_APPS = [
     "apps.empresas",
+    "apps.funcionarios",
+    "apps.departamentos",
+    "apps.documentos",
+    "apps.registro_hora_extra",
 ]
 
 THIRD_APPS = [
@@ -127,3 +131,4 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
